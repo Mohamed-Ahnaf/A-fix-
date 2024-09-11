@@ -50,7 +50,7 @@ img {
 }
 
 .menues ul li{
-    margin-left: 50px;
+    margin-left: 60px;
     
     box-sizing: border-box;
     padding:10px;
@@ -72,7 +72,7 @@ img {
 .gallery{
     width: 100%;
     height:400px;
-    background-image: linear-gradient(black,white),url(R.jpeg);
+    background-image: linear-gradient(to top,black,white),url(R.jpeg);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size:100% 400px;
@@ -117,5 +117,12 @@ h1,h2:hover{
    
 }
 
-
+.blackgallery{
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
 
