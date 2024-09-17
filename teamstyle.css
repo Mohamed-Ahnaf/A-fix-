@@ -1,0 +1,96 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+ /*NAVBAR CODE*/
+.navbar {
+    width: 100%;
+    height: 100px; 
+    background-color: white;
+    display: flex;  
+    align-items: center; 
+    background-image: url(backgroundpicnav.jpg);
+    background-size: cover;
+      
+    position: sticky;
+    top: 0px;
+}
+
+img {
+    height: 130px;  
+    width: auto; 
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.menues ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 500px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+.menues ul li{
+    margin-left: 60px;
+    
+    box-sizing: border-box;
+    padding:10px;
+    border-radius: 80px;
+    background-color: #d3d3d3;
+    
+
+    
+}
+
+.menues ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menues ul li:hover{
+   color: green;
+   background-color: transparent;
+   transition-duration: 0.4s;
+   font-size: 20px;
+   align-items: center;   
+   text-decoration: none;
+}
+
+/*TEAM GALLERY CODE*/
+
+.teamhead{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "PT Serif", serif;
+    font-weight: normal;
+
+}
+
+.nuampr{
+    border: 1px solid black;
+    background-image: url(bhaiteam.jpg);
+    height: 300px;
+    width: 280px;
+    background-size: cover;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.aathilpr{
+    border: 1px solid black;
+    background-image: url(aathilteam.jpg);
+    height: 300px;
+    width: 280px;
+    background-size: cover;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.profiles{
+    display: flex;
+}
