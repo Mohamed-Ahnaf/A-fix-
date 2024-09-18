@@ -61,36 +61,218 @@ img {
    text-decoration: none;
 }
 
+.menues ul li a:hover{
+    color: green;
+    background-color: transparent;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    align-items: center;   
+    text-decoration: none;
+ }
+
 /*TEAM GALLERY CODE*/
-
-.teamhead{
-    text-align: center;
-    margin-top: 50px;
-    font-family: "PT Serif", serif;
-    font-weight: normal;
-
-}
-
-.nuampr{
-    border: 1px solid black;
-    background-image: url(bhaiteam.jpg);
-    height: 300px;
-    width: 280px;
-    background-size: cover;
-    margin-left: 200px;
-    margin-top: 50px;
-}
-
-.aathilpr{
-    border: 1px solid black;
-    background-image: url(aathilteam.jpg);
-    height: 300px;
-    width: 280px;
-    background-size: cover;
-    margin-left: 200px;
-    margin-top: 50px;
-}
-
-.profiles{
+.profilegallery{
+    background-color: lightgrey;
     display: flex;
+    flex-wrap: wrap;
+}
+
+/*nuam profile*/
+
+.oneh{
+    height: 250px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.details{
+    
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.pos{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    color: darkgreen;
+}
+
+.name{
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 2px;
+}
+
+.pic{
+    height: 250px;
+    /*border: 1px solid yellow;*/
+    width:250px;
+    background-image: url(bhaiteam.jpg);
+    background-size: cover;
+    border-radius: 200px;
+    margin-left: 30px;
+    
+}
+
+.about{
+    width: 300px;
+    
+    text-align: center;
+}
+
+
+/*Aathil profile*/
+.twoh{
+    height: 250PX;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.pic2{
+    height: 250px;
+    /*border: 1px solid yellow;*/
+    width:250px;
+    background-image: url(aathilteam.jpg);
+    background-size: cover;
+    border-radius: 200px;
+    margin-left: 30px;
+    
+}
+
+.details2{
+    
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.pos2{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    color: darkgreen;
+}
+
+.about2{
+    width: 300px;
+    
+    text-align: center;
+}
+
+.name2{
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 2px;
+}
+
+/*Ahnaf Profile card*/
+
+.threeh{
+    height: 250px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.details3{
+    
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.pos3{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    color: darkgreen;
+}
+
+.name3{
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 2px;
+}
+
+.pic3{
+    height: 250px;
+    /*border: 1px solid yellow;*/
+    width:250px;
+    background-image: url(minemyy.jpg);
+    background-size: cover;
+    border-radius: 200px;
+    margin-left: 30px;
+    
+}
+
+.about3{
+    width: 300px;
+    
+    text-align: center;
+}
+
+/*Hajith profile card*/
+
+.fourh{
+    height: 250px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.details4{
+    
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.pos4{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    color: darkgreen;
+}
+
+.name4{
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 2px;
+}
+
+.pic4{
+    height: 250px;
+    /*border: 1px solid yellow;*/
+    width:250px;
+    background-image: url(proweb44.jpg);
+    background-size: cover;
+    border-radius: 200px;
+    margin-left: 30px;
+    
+}
+
+.about4{
+    width: 300px;
+    
+    text-align: center;
+}
+
+.nuam{
+    background-color:grey;
+    color: white;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
+    
 }
