@@ -194,6 +194,58 @@ position: sticky;
 
     }
 
+    /*-----------------TEAM-ABOUT DESIGN CODES-------------------------------*/
+
+.team-about{
+    height: 400px;
+    background-color: black;
+    color: white;
+    
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.team-about h3{
+font-size: 50px;
+color: blanchedalmond;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.team-about p{
+    font-family: "SUSE", sans-serif;
+    margin: 10px;
+    justify-content: center;
+    background-color: rgba(211, 211, 211, 0.137);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.team-about a{
+    text-decoration: none;
+    color: white;
+    background-color: darkgreen;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+
+@media (max-width:800px){
+    .team-about{
+        height: 700px;
+    }
+
+    .team-about p{
+        font-size: small;
+    }
+}
+
    
 
 
