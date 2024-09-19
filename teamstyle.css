@@ -142,7 +142,7 @@
 /*------------------MOHAMED NUAAM'S PROFILE CARD------------------*/
 .profile-card{
     height: 300px;
-    
+    text-align: center;
     margin: 30px;
     display: flex;
     justify-content: flex-start;
@@ -191,7 +191,7 @@
 
 .profile-card2{
     height: 300px;
-    
+    text-align: center;
     margin: 30px;
     display: flex;
     justify-content: flex-start;
@@ -235,7 +235,7 @@
 
 .profile-card3{
     height: 300px;
-    
+    text-align: center;
     margin: 30px;
     display: flex;
     justify-content: flex-start;
@@ -279,7 +279,7 @@
 
 .profile-card4{
     height: 300px;
-    
+    text-align: center;
     margin: 30px;
     display: flex;
     justify-content: flex-start;
