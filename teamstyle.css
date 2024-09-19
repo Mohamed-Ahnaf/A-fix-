@@ -331,3 +331,65 @@ position: sticky;
 }
 
 
+/*-----------------PROFILE CARD DESIGN CODE------------------------*/
+
+.profile-card{
+    height: 300px;
+    
+    margin: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 600px;
+    
+}
+
+.picture{
+    height: 250px;
+    width: 250px;
+    background-image: url(bhaiteam.jpg);
+    background-size: cover;
+    border-radius: 200px;
+    margin-left: 10px;
+}
+
+.profile-head{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.two{
+    height: 300px;
+    
+    margin: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 600px;
+    
+}
+
+.two{
+    height: 250px;
+    width: 250px;
+    background-image: url(aathilteam.jpg);
+    background-size: cover;
+    border-radius: 200px;
+    margin-left: 10px;
+}
+
+@media (max-width:800px){
+    .profile-card{
+        width: 280px;
+        flex-direction: column;
+        padding:10px;
+        font-size: small;
+    }
+
+    .picture{
+        height: 200px;
+        width: 200px;
+    }
+}
