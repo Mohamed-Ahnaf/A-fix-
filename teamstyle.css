@@ -331,8 +331,9 @@ position: sticky;
 }
 
 
-/*-----------------PROFILE CARD DESIGN CODE------------------------*/
+/*-------------------------------------------------PROFILE CARD DESIGN CODE------------------------*/
 
+/*------------------MOHAMED NUAAM'S PROFILE CARD------------------*/
 .profile-card{
     height: 300px;
     
@@ -358,27 +359,12 @@ position: sticky;
     flex-wrap: wrap;
 }
 
-
-
-.two{
-    height: 300px;
-    
-    margin: 30px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 600px;
-    
+.details{
+    margin-top: 10px;
 }
 
-.two{
-    height: 250px;
-    width: 250px;
-    background-image: url(aathilteam.jpg);
-    background-size: cover;
-    border-radius: 200px;
-    margin-left: 10px;
-}
+
+
 
 @media (max-width:800px){
     .profile-card{
@@ -389,6 +375,142 @@ position: sticky;
     }
 
     .picture{
+        height: 200px;
+        width: 200px;
+    }
+
+}
+
+/*------------------MOHAMED AATHIL'S PROFILE CARD------------------*/
+
+.profile-card2{
+    height: 300px;
+    
+    margin: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 600px;
+    
+}
+
+.picture-two2{
+    height: 250px;
+    width: 250px;
+    background-image: url(aathilteam.jpg);
+    background-size: cover;
+    border-radius: 200px;
+    margin-left: 10px;
+}
+
+.profile-head2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+@media (max-width:800px){
+    .profile-card2{
+        width: 280px;
+        flex-direction: column;
+        padding:10px;
+        font-size: small;
+    }
+
+    .picture-two2{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/*------------------MOHAMED AHANF'S PROFILE CARD------------------*/
+
+.profile-card3{
+    height: 300px;
+    
+    margin: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 600px;
+    
+}
+
+.picture-two3{
+    height: 250px;
+    width: 250px;
+    background-image: url(minemyy.jpg);
+    background-size: cover;
+    border-radius: 200px;
+    margin-left: 10px;
+}
+
+.profile-head3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+@media (max-width:800px){
+    .profile-card3{
+        width: 280px;
+        flex-direction: column;
+        padding:10px;
+        font-size: small;
+    }
+
+    .picture-two3{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/*------------------MOHAMED HAJITH'S PROFILE CARD------------------*/
+
+.profile-card4{
+    height: 300px;
+    
+    margin: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 600px;
+    
+}
+
+.picture-two4{
+    height: 250px;
+    width: 250px;
+    background-image: url(proweb44.jpg);
+    background-size: cover;
+    border-radius: 200px;
+    margin-left: 10px;
+}
+
+.profile-head{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+@media (max-width:800px){
+    .profile-card4{
+        width: 280px;
+        flex-direction: column;
+        padding:10px;
+        font-size: small;
+    }
+
+    .picture-two4{
         height: 200px;
         width: 200px;
     }
