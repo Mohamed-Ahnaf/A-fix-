@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,68 +9,107 @@
     
 }
  /*NAVBAR CODE*/
-.navbar {
-    width: 100%;
-    height: 100px; 
-    background-color: white;
-    display: flex;  
-    align-items: center; 
-    background-image: url(backgroundpicnav.jpg);
-    background-size: cover;
-      
-    position: sticky;
+.navbar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+font-family: "Rubik", sans-serif;
+font-weight: bold;
+background-image: url(backgroundpicnav.jpg);
+background-size: cover;
+position: sticky;
     top: 0px;
+
 }
 
-img {
+.fixlogo{
     height: 130px;  
     width: auto; 
-    margin-top: 10px;
-    margin-right: 20px;
 }
-
-.menues ul{
+.navbar-links ul{
     display: flex;
-    list-style-type: none;
-    margin-left: 500px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-}
-
-.menues ul li{
-    margin-left: 60px;
-    
-    box-sizing: border-box;
-    padding:10px;
-    border-radius: 80px;
-    background-color: #d3d3d3;
-    
-
     
 }
+.navbar-links ul li{
+    list-style: none;
+    padding:20px;
 
-.menues ul li a{
+   
+}
+
+.navbar-links ul li:hover{
+    background-color: lightgray;
+    border-radius: 50px;
+  
+   
+}
+
+
+
+.navbar-links ul li a:hover{
+    color: darkgreen;
+    font-weight: bold;
+}
+   
+.navbar-links ul li a{
     text-decoration: none;
     color: black;
+    display: block;
+
 }
 
-.menues ul li:hover{
-   color: green;
-   background-color: transparent;
-   transition-duration: 0.4s;
-   font-size: 20px;
-   align-items: center;   
-   text-decoration: none;
+.btn{
+    
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 30px;
+    height: 22px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.menues ul li a:hover{
-    color: green;
-    background-color: transparent;
-    transition-duration: 0.4s;
-    font-size: 20px;
-    align-items: center;   
-    text-decoration: none;
- }
+.bar{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+}
+
+
+
+@media (max-width:600px){
+   .btn{
+    display: flex;
+   }
+
+   .navbar-links{
+     display: none;
+    width: 100%;
+   }
+
+   .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+    
+   }
+
+   .navbar-links ul{
+    flex-direction: column;
+    
+   }
+
+   .navbar-links ul li{
+   text-align: center;
+    
+   }
+
+   .navbar-links.active{
+    display: flex;
+}
+
+}
 
 /*TEAM GALLERY CODE*/
 .profilegallery{
@@ -276,3 +317,5 @@ img {
     
     
 }
+
+
