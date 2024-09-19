@@ -14,6 +14,7 @@ body{
     
 }
 
+/*-----------------NAVBAR CODE-------------------------------*/
 .navbar{
 display: flex;
 align-items: center;
@@ -121,5 +122,64 @@ position: sticky;
 }
 
 
+/*-----------------MAIN GALLERY DESIGN CODES-------------------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+.main-gallery{
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(white, black),url(smsea.jpg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-size: xx-large;
+    align-items: center;
+    color: white;
+    font-family: "SUSE", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    
+   
+}
+.main-gallery-text{
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.main-gallery-text:hover{
+    background-color: rgba(255, 255, 0, 0.24);
+    transition: 1s;
+}
+
+@media (max-width: 600px) {
+    .main-gallery {
+        height: 500px;
+        font-size: large;
+        background-size: cover; /* Adjusts the background image to fit */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .main-gallery-text {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+/*-----------------FOOTER DESIGN CODES-------------------------------*/
+.footer{
+    background-color: lightgray;
+    height:100px;
+    
+}
 
