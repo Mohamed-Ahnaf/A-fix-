@@ -153,7 +153,7 @@ position: sticky;
     transition: 1s;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 800px) {
     .main-gallery {
         height: 500px;
         font-size: large;
@@ -161,12 +161,14 @@ position: sticky;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 10px;
         
     }
 
     .main-gallery-text {
         margin-left: 0;
         text-align: center;
+        padding: 10px;
     }
 }
 
