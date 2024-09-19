@@ -9,314 +9,120 @@
     
 }
  /*NAVBAR CODE*/
-.navbar{
-display: flex;
-align-items: center;
-justify-content: space-between;
-
-font-family: "Rubik", sans-serif;
-font-weight: bold;
-background-image: url(backgroundpicnav.jpg);
-background-size: cover;
-position: sticky;
-    top: 0px;
-
-}
-
-.fixlogo{
-    height: 130px;  
-    width: auto; 
-}
-.navbar-links ul{
+ .navbar{
     display: flex;
-    
-}
-.navbar-links ul li{
-    list-style: none;
-    padding:20px;
-
-   
-}
-
-.navbar-links ul li:hover{
-    background-color: lightgray;
-    border-radius: 50px;
-  
-   
-}
-
-
-
-.navbar-links ul li a:hover{
-    color: darkgreen;
-    font-weight: bold;
-}
-   
-.navbar-links ul li a{
-    text-decoration: none;
-    color: black;
-    display: block;
-
-}
-
-.btn{
-    
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    width: 30px;
-    height: 22px;
-    display: none;
-    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
     
-   
-}
-
-.bar{
-    height: 3px;
-    width: 100%;
-    background-color: black;
-   
-}
-
-
-
-@media (max-width:600px){
-   .btn{
-    display: flex;
-    margin-top: 30px; 
-    
-   }
-   
-   .navbar-links{
-     display: none;
-    width: 100%;
-   }
-
-   .navbar{
-    flex-direction: column;
-    align-items: flex-start;
-    
-   }
-
-   .navbar-links ul{
-    flex-direction: column;
-    
-   }
-
-   .navbar-links ul li{
-   text-align: center;
-    
-   }
-
-   .navbar-links.active{
-    display: flex;
-}
-
-}
-
-
-
-
-
-
-
-
-/*TEAM GALLERY CODE*/
-.profilegallery{
-    background-color: lightgrey;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-/*nuam profile*/
-
-.oneh{
-    height: 250px;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.details{
-    
-    justify-content: center;
-    align-items: center;
-    display:flex;
-    flex-direction: column;
-    margin-left: 20px;
-}
-
-.pos{
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 2px;
-    color: darkgreen;
-}
-
-.name{
-    font-family: "Dosis", sans-serif;
-    letter-spacing: 2px;
-}
-
-.pic{
-    height: 250px;
-    /*border: 1px solid yellow;*/
-    width:250px;
-    background-image: url(bhaiteam.jpg);
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    background-image: url(backgroundpicnav.jpg);
     background-size: cover;
-    border-radius: 200px;
-    margin-left: 30px;
+    position: sticky;
+        top: 0px;
     
-}
-
-.about{
-    width: 300px;
+    }
     
-    text-align: center;
-}
-
-
-/*Aathil profile*/
-.twoh{
-    height: 250PX;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.pic2{
-    height: 250px;
-    /*border: 1px solid yellow;*/
-    width:250px;
-    background-image: url(aathilteam.jpg);
-    background-size: cover;
-    border-radius: 200px;
-    margin-left: 30px;
+    .fixlogo{
+        height: 130px;  
+        width: auto; 
+    }
+    .navbar-links ul{
+        display: flex;
+        
+    }
+    .navbar-links ul li{
+        list-style: none;
+        padding:20px;
     
-}
-
-.details2{
+       
+    }
     
-    justify-content: center;
-    align-items: center;
-    display:flex;
-    flex-direction: column;
-    margin-left: 20px;
-}
-
-.pos2{
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 2px;
-    color: darkgreen;
-}
-
-.about2{
-    width: 300px;
+    .navbar-links ul li:hover{
+        background-color: lightgray;
+        border-radius: 50px;
+      
+       
+    }
     
-    text-align: center;
-}
-
-.name2{
-    font-family: "Dosis", sans-serif;
-    letter-spacing: 2px;
-}
-
-/*Ahnaf Profile card*/
-
-.threeh{
-    height: 250px;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.details3{
     
-    justify-content: center;
-    align-items: center;
-    display:flex;
-    flex-direction: column;
-    margin-left: 20px;
-}
-
-.pos3{
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 2px;
-    color: darkgreen;
-}
-
-.name3{
-    font-family: "Dosis", sans-serif;
-    letter-spacing: 2px;
-}
-
-.pic3{
-    height: 250px;
-    /*border: 1px solid yellow;*/
-    width:250px;
-    background-image: url(minemyy.jpg);
-    background-size: cover;
-    border-radius: 200px;
-    margin-left: 30px;
     
-}
-
-.about3{
-    width: 300px;
+    .navbar-links ul li a:hover{
+        color: darkgreen;
+        font-weight: bold;
+    }
+       
+    .navbar-links ul li a{
+        text-decoration: none;
+        color: black;
+        display: block;
     
-    text-align: center;
-}
-
-/*Hajith profile card*/
-
-.fourh{
-    height: 250px;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.details4{
+    }
     
-    justify-content: center;
-    align-items: center;
-    display:flex;
-    flex-direction: column;
-    margin-left: 20px;
-}
-
-.pos4{
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 2px;
-    color: darkgreen;
-}
-
-.name4{
-    font-family: "Dosis", sans-serif;
-    letter-spacing: 2px;
-}
-
-.pic4{
-    height: 250px;
-    /*border: 1px solid yellow;*/
-    width:250px;
-    background-image: url(proweb44.jpg);
-    background-size: cover;
-    border-radius: 200px;
-    margin-left: 30px;
+    .btn{
+        
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        width: 30px;
+        height: 22px;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     
-}
-
-.about4{
-    width: 300px;
+    .bar{
+        height: 3px;
+        width: 100%;
+        background-color: black;
+    }
     
-    text-align: center;
-}
+    
+    
+    @media (max-width:600px){
+       .btn{
+        display: flex;
+        margin-top: 30px; 
+       }
+    
+       .navbar-links{
+         display: none;
+        width: 100%;
+        
+       }
+    
+       .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        
+        
+       }
+    
+       .navbar-links ul{
+        flex-direction: column;
+        width: 100%;
+        
+       }
+    
+       .navbar-links ul li{
+       text-align: center;
+        
+       }
+    
+       .navbar-links.active{
+        display: flex;
+    }
+    
+    }
+
+
+
+
+
+
+
+
+/*FOOTER DESIGN CODE*/
 
 .nuam{
     background-color:grey;
