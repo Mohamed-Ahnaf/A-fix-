@@ -153,11 +153,11 @@ position: sticky;
     transition: 1s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .main-gallery {
         height: 500px;
         font-size: large;
-        background-size: cover; /* Adjusts the background image to fit */
+        background-size: cover; 
         flex-direction: column;
         justify-content: center;
         align-items: center;
